@@ -4,13 +4,13 @@ public class FindKthMaxQuickSelect {
 
     public static void main(String[] args) {
 
-
+/*
         int[] arr = {1,2,3,4,5,6,7,8,9,10};
-        System.out.println(quickSelect(arr, 5, 0, arr.length-1));
+       // System.out.println(quickSelect(arr, 5, 0, arr.length-1));
 
     }
 
-    public static int quickSelect(int[] arr, int index, int left, int right)
+    public static void quickSelect(int[] arr, int index, int left, int right)
     {
         int mid = left + (right-left)/2;
         int pIndex = quickPartition(arr, left, right);
@@ -19,10 +19,10 @@ public class FindKthMaxQuickSelect {
         else if (pIndex < index)
             quickSelect(arr, index, pIndex+1, right);
         else
-            return arr[pIndex];
+             //arr[pIndex];
 
-    }
-
+    }*/
+/*
     public static int quickPartition(int[] arr, int left, int right)
     {
         int pivot = arr[right];
@@ -44,10 +44,8 @@ public class FindKthMaxQuickSelect {
     {
         int temp = arr[pIndex];
         arr[pIndex] = arr[right];
-        arr[right] = temp;
+        arr[right] = temp;*/
     }
-
-
 
 
 }
